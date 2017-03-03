@@ -1,3 +1,4 @@
+<html>
 <style>
 .tab-content .content li {list-style: none;display: none;}
 .tab-indent .tabs li {list-style: none;width: auto;display: inline-block;padding: 5px 10px;cursor: pointer}
@@ -23,6 +24,7 @@ $(document).ready(function(){
 	$(".tab-indent .tabs li:eq(0)").trigger("click");
 });
 </script>
+<body>
 <div class="tab-indent">
 	<ul class="tabs">
 		<li id="tab1">Tab 1</li>
@@ -59,3 +61,5 @@ $(document).ready(function(){
 		</li>		
 	</ul>
 </div>
+</body>
+</html>
